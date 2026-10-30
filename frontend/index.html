@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#0b1220">
+  <title>JARVIS</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">J.A.R.V.I.S.</div>
+    <div class="topbar-right">
+      <span id="usage" class="usage" title="KI-Kosten diesen Monat"></span>
+      <button id="new-chat" class="ghost" title="Neues Gespräch">＋ Neu</button>
+      <button id="logout" class="ghost" title="Abmelden">⏻</button>
+    </div>
+  </header>
+
+  <main id="messages" class="messages"></main>
+
+  <form id="chat-form" class="composer">
+    <textarea id="input" rows="1" placeholder="Nachricht an JARVIS …" maxlength="8000" required></textarea>
+    <button id="send" type="submit" title="Senden">➤</button>
+  </form>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

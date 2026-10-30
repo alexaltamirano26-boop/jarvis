@@ -1,0 +1,19 @@
+# Geheimnisse – niemals hochladen!
+.env
+
+# Datenbank und Logs (persönliche Daten)
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editoren / System
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
